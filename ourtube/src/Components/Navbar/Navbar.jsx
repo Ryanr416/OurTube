@@ -12,20 +12,20 @@ const Navbar = () => {
   return (
     <nav className="flex-div">
       <div className="nav-left flex-div">
-        <img className="menu-icon" src={MenuIcon} alt="" />
-        <img className="logo" src={YouTubeIcon} alt="" />
+        <MenuIcon className="menu-icon" />
+        <YouTubeIcon className="logo" />
       </div>
 
       <div className="nav-middle flex-div">
         <input type="text" placeholder="Search" />
-        <img src={SearchIcon} alt="" />
+        <SearchIcon />
       </div>
 
       <div className="nav-right flex-div">
-        <img src={UploadIcon} alt="" />
-        <img src={ExpandMoreIcon} alt="" />
-        <img src={NotificationsNoneOutlinedIcon} alt="" />
-        <img src={AccountCircleOutlinedIcon} alt="" />
+        <UploadIcon />
+        <ExpandMoreIcon />
+        <NotificationsNoneOutlinedIcon />
+        <AccountCircleOutlinedIcon className="user-icon" />
       </div>
     </nav>
   );
