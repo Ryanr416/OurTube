@@ -3,6 +3,10 @@ import "./Navbar.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import SearchIcon from "@mui/icons-material/Search";
+import UploadIcon from "@mui/icons-material/Upload";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
+import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 
 const Navbar = () => {
   return (
@@ -15,6 +19,13 @@ const Navbar = () => {
       <div className="nav-middle flex-div">
         <input type="text" placeholder="Search" />
         <img src={SearchIcon} alt="" />
+      </div>
+
+      <div className="nav-right flex-div">
+        <img src={UploadIcon} alt="" />
+        <img src={ExpandMoreIcon} alt="" />
+        <img src={NotificationsNoneOutlinedIcon} alt="" />
+        <img src={AccountCircleOutlinedIcon} alt="" />
       </div>
     </nav>
   );
