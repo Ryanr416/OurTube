@@ -18,25 +18,28 @@ const Sidebar = () => {
           <img src={HomeIcon} alt="" /> <p>Home</p>
         </div>
         <div className="side-link">
-          <img src={HomeIcon} alt="" /> <p>Home</p>
+          <img src={SportsEsportsIcon} alt="" /> <p>Gaming</p>
         </div>
         <div className="side-link">
-          <img src={HomeIcon} alt="" /> <p>Home</p>
+          <img src={DirectionsCarIcon} alt="" /> <p>Automobiles</p>
         </div>
         <div className="side-link">
-          <img src={HomeIcon} alt="" /> <p>Home</p>
+          <img src={SportsBasketballIcon} alt="" /> <p>Sports</p>
         </div>
         <div className="side-link">
-          <img src={HomeIcon} alt="" /> <p>Home</p>
+          <img src={TvIcon} alt="" /> <p>Entertainment</p>
         </div>
         <div className="side-link">
-          <img src={HomeIcon} alt="" /> <p>Home</p>
+          <img src={ComputerIcon} alt="" /> <p>Tech</p>
         </div>
         <div className="side-link">
-          <img src={HomeIcon} alt="" /> <p>Home</p>
+          <img src={LibraryMusicIcon} alt="" /> <p>Music</p>
         </div>
         <div className="side-link">
-          <img src={HomeIcon} alt="" /> <p>Home</p>
+          <img src={BookIcon} alt="" /> <p>Blogs</p>
+        </div>
+        <div className="side-link">
+          <img src={NewspaperIcon} alt="" /> <p>News</p>
         </div>
         <hr />
       </div>
