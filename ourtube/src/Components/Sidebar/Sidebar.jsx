@@ -1,45 +1,54 @@
 import React from "react";
 import "./Sidebar.css";
-import HomeIcon from "@mui/icons-material/Home"; /* Home */
-import SportsEsportsIcon from "@mui/icons-material/SportsEsports"; /* Video Games */
-import DirectionsCarIcon from "@mui/icons-material/DirectionsCar"; /* Autos */
-import SportsBasketballIcon from "@mui/icons-material/SportsBasketball"; /* Sports */
-import TvIcon from "@mui/icons-material/Tv"; /* entertainment */
-import ComputerIcon from "@mui/icons-material/Computer"; /* Tech */
-import LibraryMusicIcon from "@mui/icons-material/LibraryMusic"; /* music */
-import BookIcon from "@mui/icons-material/Book"; /* blog */
-import NewspaperIcon from "@mui/icons-material/Newspaper"; /* news */
+import HomeIcon from "@mui/icons-material/Home";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import DirectionsCarIcon from "@mui/icons-material/DirectionsCar";
+import SportsBasketballIcon from "@mui/icons-material/SportsBasketball";
+import TvIcon from "@mui/icons-material/Tv";
+import ComputerIcon from "@mui/icons-material/Computer";
+import LibraryMusicIcon from "@mui/icons-material/LibraryMusic";
+import BookIcon from "@mui/icons-material/Book";
+import NewspaperIcon from "@mui/icons-material/Newspaper";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="shortcut-links">
         <div className="side-link">
-          <img src={HomeIcon} alt="" /> <p>Home</p>
+          <HomeIcon className="homeicon" />
+          <p>Home</p>
         </div>
         <div className="side-link">
-          <img src={SportsEsportsIcon} alt="" /> <p>Gaming</p>
+          <SportsEsportsIcon className="gamingicon" />
+          <p>Gaming</p>
         </div>
         <div className="side-link">
-          <img src={DirectionsCarIcon} alt="" /> <p>Automobiles</p>
+          <DirectionsCarIcon className="autoicon" />
+          <p>Automobiles</p>
         </div>
         <div className="side-link">
-          <img src={SportsBasketballIcon} alt="" /> <p>Sports</p>
+          <SportsBasketballIcon className="sportsicon" />
+          <p>Sports</p>
         </div>
         <div className="side-link">
-          <img src={TvIcon} alt="" /> <p>Entertainment</p>
+          <TvIcon className="tvicon" />
+          <p>Entertainment</p>
         </div>
         <div className="side-link">
-          <img src={ComputerIcon} alt="" /> <p>Tech</p>
+          <ComputerIcon className="techicon" />
+          <p>Tech</p>
         </div>
         <div className="side-link">
-          <img src={LibraryMusicIcon} alt="" /> <p>Music</p>
+          <LibraryMusicIcon className="musicicon" />
+          <p>Music</p>
         </div>
         <div className="side-link">
-          <img src={BookIcon} alt="" /> <p>Blogs</p>
+          <BookIcon className="blogsicon" />
+          <p>Blogs</p>
         </div>
         <div className="side-link">
-          <img src={NewspaperIcon} alt="" /> <p>News</p>
+          <NewspaperIcon className="newsicon" />
+          <p>News</p>
         </div>
         <hr />
       </div>
