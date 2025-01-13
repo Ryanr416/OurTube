@@ -15,42 +15,46 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="shortcut-links">
         <div className="side-link">
-          <HomeIcon className="homeicon" />
+          <HomeIcon className="icon" />
           <p>Home</p>
         </div>
         <div className="side-link">
-          <SportsEsportsIcon className="gamingicon" />
+          <SportsEsportsIcon className="icon" />
           <p>Gaming</p>
         </div>
         <div className="side-link">
-          <DirectionsCarIcon className="autoicon" />
+          <DirectionsCarIcon className="icon" />
           <p>Automobiles</p>
         </div>
         <div className="side-link">
-          <SportsBasketballIcon className="sportsicon" />
+          <SportsBasketballIcon className="icon" />
           <p>Sports</p>
         </div>
         <div className="side-link">
-          <TvIcon className="tvicon" />
+          <TvIcon className="icon" />
           <p>Entertainment</p>
         </div>
         <div className="side-link">
-          <ComputerIcon className="techicon" />
+          <ComputerIcon className="icon" />
           <p>Tech</p>
         </div>
         <div className="side-link">
-          <LibraryMusicIcon className="musicicon" />
+          <LibraryMusicIcon className="icon" />
           <p>Music</p>
         </div>
         <div className="side-link">
-          <BookIcon className="blogsicon" />
+          <BookIcon className="icon" />
           <p>Blogs</p>
         </div>
         <div className="side-link">
-          <NewspaperIcon className="newsicon" />
+          <NewspaperIcon className="icon" />
           <p>News</p>
         </div>
         <hr />
+      </div>
+      <div className="subscribed-list">
+        <h3>Subscribed</h3>
+        <div className="side-link"></div>
       </div>
     </div>
   );
