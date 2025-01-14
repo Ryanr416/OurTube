@@ -8,11 +8,18 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 
-const Navbar = () => {
+const Navbar = ({ setSidebar }) => {
   return (
     <nav className="flex-div">
       <div className="nav-left flex-div">
-        <MenuIcon className="menu-icon" />
+        <MenuIcon
+          className="menu-icon"
+          onClick={() => {
+            console.log("Menu clicked!");
+            setSidebar((prev) => !prev);
+          }}
+        />
+
         <YouTubeIcon className="logo" />
       </div>
 

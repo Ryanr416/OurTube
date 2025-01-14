@@ -1,0 +1,18 @@
+/* Main Layout */
+.main-layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Content Area */
+.content {
+  flex: 1; /* Take up remaining space */
+  padding: 20px;
+  transition: margin-left 0.3s ease; /* Smooth transition for sidebar toggle */
+}
+
+/* Shift content when sidebar is open */
+.content-sidebar-open {
+  margin-left: 250px; /* Adjust based on sidebar width */
+}

@@ -6,8 +6,43 @@
   top: 0;
   padding-left: 2%;
   padding-top: 80px;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  transition: width 0.3s ease;
 }
+
 .shortcut-links {
-  width: 20px;
   margin-right: 20px;
+}
+
+.side-link {
+  display: flex;
+  padding: 10px 15px;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.side-link .icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.side-link p {
+  margin: 0;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.side-link:hover {
+  background-color: #ddd;
+}
+
+.open-sidebar {
+  width: 250px; /* Full width */
+}
+
+.small-sidebar {
+  width: 50px; /* Reduced width for collapsed state */
 }

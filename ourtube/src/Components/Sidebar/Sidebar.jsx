@@ -10,9 +10,9 @@ import LibraryMusicIcon from "@mui/icons-material/LibraryMusic";
 import BookIcon from "@mui/icons-material/Book";
 import NewspaperIcon from "@mui/icons-material/Newspaper";
 
-const Sidebar = () => {
+const Sidebar = ({ sidebar }) => {
   return (
-    <div className="sidebar">
+    <div className={`sidebar ${sidebar ? "open-sidebar" : "small-sidebar"}`}>
       <div className="shortcut-links">
         <div className="side-link">
           <HomeIcon className="icon" />
