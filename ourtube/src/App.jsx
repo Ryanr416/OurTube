@@ -20,15 +20,14 @@ const App = () => {
           <Sidebar sidebar={sidebar} />
 
           {/* Main content area */}
-          <div className={`content ${sidebar ? "content-sidebar-open" : ""}`}>
-            <Routes>
-              <Route path="/" element={<Home sidebar={sidebar} />} />
-              <Route
-                path="/video/:categoryId/:videoId"
-                element={<Video sidebar={sidebar} />}
-              />
-            </Routes>
-          </div>
+
+          <Routes>
+            <Route path="/" element={<Home sidebar={sidebar} />} />
+            <Route
+              path="/video/:categoryId/:videoId"
+              element={<Video sidebar={sidebar} />}
+            />
+          </Routes>
         </div>
       </BrowserRouter>
     </div>

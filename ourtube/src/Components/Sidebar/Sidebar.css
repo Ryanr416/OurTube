@@ -44,5 +44,9 @@
 }
 
 .small-sidebar {
-  width: 50px; /* Reduced width for collapsed state */
+  width: 5%; /* Reduced width for collapsed state */
+}
+
+.small-sidebar p {
+  display: none;
 }
