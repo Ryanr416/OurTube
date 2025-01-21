@@ -52,10 +52,8 @@ const Sidebar = ({ sidebar }) => {
         </div>
         <hr />
       </div>
-      <div className="subscribed-list">
-        <h3>Subscribed</h3>
-        <div className="side-link"></div>
-      </div>
+
+      <div className="side-link"></div>
     </div>
   );
 };
