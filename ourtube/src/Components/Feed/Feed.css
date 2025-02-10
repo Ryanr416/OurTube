@@ -7,3 +7,14 @@
   width: 100%;
   max-width: 1200px;
 }
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5px 0;
+}
