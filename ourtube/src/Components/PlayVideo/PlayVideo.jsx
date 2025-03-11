@@ -15,19 +15,19 @@ const PlayVideo = () => {
         <p>1525 views &bull; 2 days ago</p>
         <div>
           <span>
-            <img src={ThumbUpIcon} alt="" /> 125{" "}
+            <ThumbUpIcon/> 125
           </span>
 
           <span>
-            <img src={ThumbDownIcon} alt="" /> 12{" "}
+            <ThumbDownIcon /> 12
           </span>
 
           <span>
-            <img src={ShareIcon} alt="" /> Share
+            <ShareIcon/> Share
           </span>
 
           <span>
-            <img src={SaveIcon} alt="" /> Save
+            <SaveIcon/> Save
           </span>
         </div>
       </div>
