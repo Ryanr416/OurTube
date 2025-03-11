@@ -33,7 +33,7 @@ const PlayVideo = () => {
       </div>
       <hr />
       <div className="publisher">
-        <img src={PersonIcon} alt="" />
+        <PersonIcon />
         <div>
           <p>Im a youtube video</p>
           <span>1m Subscribers</span>
@@ -46,15 +46,15 @@ const PlayVideo = () => {
         <hr />
         <h4> 130 Comments</h4>
         <div className="comment">
-          <img src={PersonIcon} alt="" />
+          <PersonIcon />
           <div>
             <h3>Jack</h3>
             <span>1 day ago</span>
             <p> random comment here </p>
             <div className="comment-action">
-              <img src={ThumbUpIcon} alt="" />
+              <ThumbUpIcon />
               <span>244</span>
-              <img src={ThumbDownIcon} alt="" />
+              <ThumbDownIcon/>
               <span>12</span>
             </div>
           </div>

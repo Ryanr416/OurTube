@@ -27,3 +27,22 @@
     width: 20px;
     margin-right: 8px;
 }
+
+.play-video-info span{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.play-video hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
+.play-video video{
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
