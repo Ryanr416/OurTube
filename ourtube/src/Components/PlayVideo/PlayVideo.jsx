@@ -15,7 +15,7 @@ const PlayVideo = () => {
         <p>1525 views &bull; 2 days ago</p>
         <div>
           <span>
-            <ThumbUpIcon/> 125
+            <ThumbUpIcon /> 125
           </span>
 
           <span>
@@ -23,11 +23,11 @@ const PlayVideo = () => {
           </span>
 
           <span>
-            <ShareIcon/> Share
+            <ShareIcon /> Share
           </span>
 
           <span>
-            <SaveIcon/> Save
+            <SaveIcon /> Save
           </span>
         </div>
       </div>
@@ -35,7 +35,7 @@ const PlayVideo = () => {
       <div className="publisher">
         <PersonIcon />
         <div>
-          <p>Im a youtube video</p>
+          <p>Bill Gates</p>
           <span>1m Subscribers</span>
         </div>
         <button>Subscribe</button>
@@ -54,7 +54,7 @@ const PlayVideo = () => {
             <div className="comment-action">
               <ThumbUpIcon />
               <span>244</span>
-              <ThumbDownIcon/>
+              <ThumbDownIcon />
               <span>12</span>
             </div>
           </div>
