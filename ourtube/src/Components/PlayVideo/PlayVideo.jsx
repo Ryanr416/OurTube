@@ -15,11 +15,11 @@ const PlayVideo = () => {
         <p>1525 views &bull; 2 days ago</p>
         <div>
           <span>
-            <ThumbUpIcon /> 125
+            <ThumbUpIcon className="thumb-up-icon-video" /> 125
           </span>
 
           <span>
-            <ThumbDownIcon /> 12
+            <ThumbDownIcon className="thumb-down-icon-video" /> 12
           </span>
 
           <span>
@@ -52,9 +52,9 @@ const PlayVideo = () => {
             <span>1 day ago</span>
             <p> random comment here </p>
             <div className="comment-action">
-              <ThumbUpIcon />
+              <ThumbUpIcon className="thumb-up-icon" />
               <span>244</span>
-              <ThumbDownIcon />
+              <ThumbDownIcon className="thumb-down-icon" />
               <span>12</span>
             </div>
           </div>
