@@ -145,5 +145,13 @@
   margin-right: 5px;
 }
 
-.thumb-down-icon {
+.thumb-down-icon.MuiSvgIcon-root {
+  border-radius: 0;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.comment-action span {
+  margin-right: 20px;
+  color: #5a5a5a;
 }
