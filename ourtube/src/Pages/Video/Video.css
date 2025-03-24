@@ -5,6 +5,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
-  justify-content: space-between;
+  margin-left: 255px; /* Adjust this value as needed to move the content to the right */
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
